@@ -24,14 +24,7 @@ export class CookingComponent implements OnInit {
 }
 @Pipe({name: 'filterByName'})
 export class FilterNames implements PipeTransform {
-/*  transform(listOfNames: any, nameToFilter: string): any[] {
-    if (!listOfNames) { return null; }
-    if (!nameToFilter) { return listOfNames; }
-
-    console.log(listOfNames[0].recipe);
-    return listOfNames.filter(n => n.indexOf(nameToFilter) >= 0);*/
-
-    transform(listOfNames: any[], nameToFilter: string): any[] {
+  transform(listOfNames: any[], nameToFilter: string): any[] {
       if (!listOfNames) { return []; }
       if (!nameToFilter) { return listOfNames; }
       nameToFilter = nameToFilter.toLowerCase();
