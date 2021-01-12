@@ -3,14 +3,29 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HomeComponent } from './home/home.component';
+import { StarterComponent } from './starter/starter.component';
+import {CookingComponent, FilterNames} from './cooking/cooking.component';
+import { BakingComponent } from './baking/baking.component';
+import { DessertComponent } from './dessert/dessert.component';
+import { ContactComponent } from './contact/contact.component';
+import {FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    StarterComponent,
+    CookingComponent,
+    BakingComponent,
+    DessertComponent,
+    ContactComponent,
+    FilterNames
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
