@@ -4,11 +4,11 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --output-path docs --deployUrl /ccc/ ---baseHref /ccc/",
+    "build": "ng build --prod --deployUrl /ccc/ ---baseHref /ccc/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "gh-pages -d docs"
+    "deploy": "gh-pages -d dist/recipe-book"
   },
   "private": true,
   "homepage": "https://leahaeussermann.github.io/ccc/",
