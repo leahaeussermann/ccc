@@ -10,7 +10,6 @@ import { BakingComponent } from './baking/baking.component';
 import { DessertComponent } from './dessert/dessert.component';
 import { ContactComponent } from './contact/contact.component';
 import {FormsModule} from '@angular/forms';
-import {NgbCollapseConfig, NgbCollapseModule, NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
