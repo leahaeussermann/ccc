@@ -10,6 +10,7 @@ import { BakingComponent } from './baking/baking.component';
 import { DessertComponent } from './dessert/dessert.component';
 import { ContactComponent } from './contact/contact.component';
 import {FormsModule} from '@angular/forms';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import {FormsModule} from '@angular/forms';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
