@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit, Pipe, PipeTransform} from '@angular/core';
+import Data from '../data/cook-recipes';
 
 @Component({
   selector: 'app-starter',
@@ -7,9 +8,29 @@ import { Component, OnInit } from '@angular/core';
 })
 export class StarterComponent implements OnInit {
 
-  constructor() { }
+  data: any[] = [];
+  filterName: string;
+  constructor() {
+    this.data = Data;
+  }
 
   ngOnInit() {
   }
 
+  openRecipe() {
+    console.log('open recipe page');
+  }
+
+}
+
+@Pipe({name: 'filterByName'})
+export class FilterNamesStarter implements PipeTransform {
+  transform(listOfNames: any[], nameToFilter: string): any[] {
+    if (!listOfNames) { return []; }
+    if (!nameToFilter) { return listOfNames; }
+    nameToFilter = nameToFilter.toLowerCase();
+    return listOfNames.filter( it => {
+      return it.recipe.label.toLowerCase().includes(nameToFilter);
+    });
+  }
 }

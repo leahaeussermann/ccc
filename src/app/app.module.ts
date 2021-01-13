@@ -4,10 +4,10 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { StarterComponent } from './starter/starter.component';
+import {FilterNamesStarter, StarterComponent} from './starter/starter.component';
 import {CookingComponent, FilterNames} from './cooking/cooking.component';
-import { BakingComponent } from './baking/baking.component';
-import { DessertComponent } from './dessert/dessert.component';
+import {BakingComponent, FilterBakingNames} from './baking/baking.component';
+import {DessertComponent, FilterDessertNames} from './dessert/dessert.component';
 import { ContactComponent } from './contact/contact.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import {FormsModule} from '@angular/forms';
@@ -21,7 +21,10 @@ import {FormsModule} from '@angular/forms';
     BakingComponent,
     DessertComponent,
     ContactComponent,
-    FilterNames
+    FilterNames,
+    FilterNamesStarter,
+    FilterBakingNames,
+    FilterDessertNames
   ],
   imports: [
     BrowserModule,

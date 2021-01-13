@@ -1,1 +1,23 @@
-<p>dessert works!</p>
+<div class="container-lg" style="display: flex; flex-flow: wrap; text-align: center; padding-top: 16px;
+padding-bottom: 16px; max-width: 80%">
+  <label style="width: 100%">
+    <input style="width: 100%" [(ngModel)]="filterName" placeholder="Suche nach Nachspeisen">
+  </label>
+</div>
+<div style="height: 87%">
+  <div class="container-lg" style="display: flex; flex-flow: wrap; height: 96%; max-width: 80%"
+       id="container">
+
+    <div *ngFor="let name of data | filterByName:filterName">
+      <div class="card" id="card" (click)="openRecipe()">
+        <img style="width: 250px; align-self: center; margin-top: 22px; border: 5px solid rgba(11, 156, 49, .5)"
+             src="{{name.recipe.image}}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{name.recipe.label}}</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
