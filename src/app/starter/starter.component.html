@@ -9,7 +9,7 @@ padding-bottom: 16px; max-width: 80%">
        id="container">
 
     <div *ngFor="let name of data | filterByName:filterName">
-      <div class="card" id="card" (click)="openRecipe()">
+      <div class="card" id="card" (click)="openRecipe(name)">
         <img style="width: 250px; align-self: center; margin-top: 22px; border: 5px solid rgba(11, 156, 49, .5)"
              src="{{name.recipe.image}}" class="card-img-top" alt="...">
         <div class="card-body">

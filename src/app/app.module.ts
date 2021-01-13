@@ -11,6 +11,7 @@ import {DessertComponent, FilterDessertNames} from './dessert/dessert.component'
 import { ContactComponent } from './contact/contact.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import {FormsModule} from '@angular/forms';
+import { RecipeDialogComponent } from './recipe-dialog/recipe-dialog.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import {FormsModule} from '@angular/forms';
     FilterNames,
     FilterNamesStarter,
     FilterBakingNames,
-    FilterDessertNames
+    FilterDessertNames,
+    RecipeDialogComponent
   ],
   imports: [
     BrowserModule,
@@ -32,6 +34,7 @@ import {FormsModule} from '@angular/forms';
     NgbModule,
     FormsModule,
   ],
+  entryComponents: [RecipeDialogComponent],
   providers: [],
   bootstrap: [AppComponent]
 })

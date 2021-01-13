@@ -3,16 +3,7 @@ export default [
     recipe: {
       label: 'Chicken Vesuvio',
       image: 'https://www.edamam.com/web-img/e42/e42f9119813e890af34c259785ae1cfb.jpg',
-      dietLabels: [
-        'Low-Carb'
-      ],
-      healthLabels: [
-        'Peanut-Free',
-        'Tree-Nut-Free'
-      ],
-      cautions: [
-        'Sulfites'
-      ],
+      creator: 'Giesela Bauer',
       ingredientLines: [
         '1/2 cup olive oil',
         '5 cloves garlic, peeled',
@@ -25,17 +16,24 @@ export default [
         'Salt and pepper',
         '1 cup frozen peas, thawed'
       ],
-      instructions: 'do this and that',
-      totalTime: 60
-    }
+      instructions: [
+        'Mehl und Zucker vermischen',
+        'Backofen vorheizen',
+        'Milch hinzugeben',
+        'Dann was andered',
+        'Was nächstes machen',
+        'In den Backofen schieben',
+        'Toppings zubereiten',
+        'Nach 60 min aud Backofen holen',
+        'Bestreuen',
+        'Am besten warm essen'
+      ]    }
   },
   {
     recipe: {
       label: 'Chicken Paprikash',
       image: 'https://www.edamam.com/web-img/e12/e12b8c5581226d7639168f41d126f2ff.jpg',
-      dietLabels: [
-        'Low-Carb'
-      ],
+      creator: 'Manuel Maus',
       ingredientLines: [
         '640 grams chicken - drumsticks and thighs ( 3 whole chicken legs cut apart)',
         '1/2 teaspoon salt',
@@ -49,34 +47,48 @@ export default [
         '1/2 cup sour cream',
         '1 tablespoon flour – all-purpose'
       ],
-      instructions: 'do this and that',
-      totalTime: 0
-    }
+      instructions: [
+        'Mehl und Zucker vermischen',
+        'Backofen vorheizen',
+        'Milch hinzugeben',
+        'Dann was andered',
+        'Was nächstes machen',
+        'In den Backofen schieben',
+        'Toppings zubereiten',
+        'Nach 60 min aud Backofen holen',
+        'Bestreuen',
+        'Am besten warm essen'
+      ]    }
   },
   {
     recipe: {
       label: 'Baked Chicken',
       image: 'https://www.edamam.com/web-img/01c/01cacb70890274fb7b7cebb975a93231.jpg',
-      dietLabels: [
-        'Low-Carb'
-      ],
+      creator: '',
       ingredientLines: [
         '6 bone-in chicken breast halves, or 6 chicken thighs and wings, skin-on',
         '1/2 teaspoon coarse salt',
         '1/2 teaspoon Mrs. Dash seasoning',
         '1/4 teaspoon freshly ground black pepper'
       ],
-      instructions: 'do this and that',
-      totalTime: 0
-    }
+      instructions: [
+        'Mehl und Zucker vermischen',
+        'Backofen vorheizen',
+        'Milch hinzugeben',
+        'Dann was andered',
+        'Was nächstes machen',
+        'In den Backofen schieben',
+        'Toppings zubereiten',
+        'Nach 60 min aud Backofen holen',
+        'Bestreuen',
+        'Am besten warm essen'
+      ]    }
   },
   {
     recipe: {
       label: 'Chicken Feet Stock',
       image: 'https://www.edamam.com/web-img/ae9/ae96650072cc599967d945c5e9961bb7.JPG',
-      dietLabels: [
-        'Low-Carb'
-      ],
+      creator: 'Hans Holger',
       ingredientLines: [
         '1 chicken carcass, from a roasted chicken',
         '2 or more chicken feet',
@@ -85,24 +97,24 @@ export default [
         '1 tablespoon black peppercorns, whole',
         '1 tablespoon crushed red pepper flakes'
       ],
-      instructions: 'do this and that',
-      totalTime: 371
-    }
+      instructions: [
+        'Mehl und Zucker vermischen',
+        'Backofen vorheizen',
+        'Milch hinzugeben',
+        'Dann was andered',
+        'Was nächstes machen',
+        'In den Backofen schieben',
+        'Toppings zubereiten',
+        'Nach 60 min aud Backofen holen',
+        'Bestreuen',
+        'Am besten warm essen'
+      ]    }
   },
   {
     recipe: {
       label: 'Chicken Vesuvio',
       image: 'https://www.edamam.com/web-img/e42/e42f9119813e890af34c259785ae1cfb.jpg',
-      dietLabels: [
-        'Low-Carb'
-      ],
-      healthLabels: [
-        'Peanut-Free',
-        'Tree-Nut-Free'
-      ],
-      cautions: [
-        'Sulfites'
-      ],
+      creator: 'Peter Paulsen',
       ingredientLines: [
         '1/2 cup olive oil',
         '5 cloves garlic, peeled',
@@ -115,17 +127,24 @@ export default [
         'Salt and pepper',
         '1 cup frozen peas, thawed'
       ],
-      instructions: 'do this and that',
-      totalTime: 60
-    }
+      instructions: [
+        'Mehl und Zucker vermischen',
+        'Backofen vorheizen',
+        'Milch hinzugeben',
+        'Dann was andered',
+        'Was nächstes machen',
+        'In den Backofen schieben',
+        'Toppings zubereiten',
+        'Nach 60 min aud Backofen holen',
+        'Bestreuen',
+        'Am besten warm essen'
+      ]    }
   },
   {
     recipe: {
       label: 'Chicken Paprikash',
       image: 'https://www.edamam.com/web-img/e12/e12b8c5581226d7639168f41d126f2ff.jpg',
-      dietLabels: [
-        'Low-Carb'
-      ],
+      creator: '',
       ingredientLines: [
         '640 grams chicken - drumsticks and thighs ( 3 whole chicken legs cut apart)',
         '1/2 teaspoon salt',
@@ -139,34 +158,49 @@ export default [
         '1/2 cup sour cream',
         '1 tablespoon flour – all-purpose'
       ],
-      instructions: 'do this and that',
-      totalTime: 0
+      instructions: [
+        'Mehl und Zucker vermischen',
+        'Backofen vorheizen',
+        'Milch hinzugeben',
+        'Dann was andered',
+        'Was nächstes machen',
+        'In den Backofen schieben',
+        'Toppings zubereiten',
+        'Nach 60 min aud Backofen holen',
+        'Bestreuen',
+        'Am besten warm essen'
+      ]
     }
   },
   {
     recipe: {
       label: 'Baked Chicken',
       image: 'https://www.edamam.com/web-img/01c/01cacb70890274fb7b7cebb975a93231.jpg',
-      dietLabels: [
-        'Low-Carb'
-      ],
+      creator: 'Hanna Haus',
       ingredientLines: [
         '6 bone-in chicken breast halves, or 6 chicken thighs and wings, skin-on',
         '1/2 teaspoon coarse salt',
         '1/2 teaspoon Mrs. Dash seasoning',
         '1/4 teaspoon freshly ground black pepper'
       ],
-      instructions: 'do this and that',
-      totalTime: 0
-    }
+      instructions: [
+        'Mehl und Zucker vermischen',
+        'Backofen vorheizen',
+        'Milch hinzugeben',
+        'Dann was andered',
+        'Was nächstes machen',
+        'In den Backofen schieben',
+        'Toppings zubereiten',
+        'Nach 60 min aud Backofen holen',
+        'Bestreuen',
+        'Am besten warm essen'
+      ]    }
   },
   {
     recipe: {
       label: 'Chicken Feet Stock',
       image: 'https://www.edamam.com/web-img/ae9/ae96650072cc599967d945c5e9961bb7.JPG',
-      dietLabels: [
-        'Low-Carb'
-      ],
+      creator: 'Laura Luft',
       ingredientLines: [
         '1 chicken carcass, from a roasted chicken',
         '2 or more chicken feet',
@@ -175,8 +209,17 @@ export default [
         '1 tablespoon black peppercorns, whole',
         '1 tablespoon crushed red pepper flakes'
       ],
-      instructions: 'do this and that',
-      totalTime: 371
-    }
+      instructions: [
+        'Mehl und Zucker vermischen',
+        'Backofen vorheizen',
+        'Milch hinzugeben',
+        'Dann was andered',
+        'Was nächstes machen',
+        'In den Backofen schieben',
+        'Toppings zubereiten',
+        'Nach 60 min aud Backofen holen',
+        'Bestreuen',
+        'Am besten warm essen'
+      ]    }
   }
 ];

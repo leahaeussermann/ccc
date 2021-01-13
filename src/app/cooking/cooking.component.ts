@@ -1,5 +1,7 @@
 import {Component, OnInit, Pipe, PipeTransform} from '@angular/core';
 import Data from '../data/cook-recipes';
+import {RecipeDialogComponent} from '../recipe-dialog/recipe-dialog.component';
+import {NgbModal} from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-cooking',
@@ -9,15 +11,16 @@ import Data from '../data/cook-recipes';
 export class CookingComponent implements OnInit {
   data: any[] = [];
   filterName: string;
-  constructor() {
+  constructor(private modalService: NgbModal) {
     this.data = Data;
   }
 
   ngOnInit() {
   }
 
-  openRecipe() {
-    console.log('open recipe page');
+  openRecipe(name: any) {
+    const modalRef = this.modalService.open(RecipeDialogComponent);
+    modalRef.componentInstance.lesson = name;
   }
 }
 
