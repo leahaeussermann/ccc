@@ -1,20 +1,21 @@
 #container{
-/*  position: absolute;
-  top: 119px;
-  bottom: 0;
-  left: 0;
-  right: 0;*/
-  overflow-y: scroll;
+  overflow-y: auto;
   overflow-x: hidden;
-  box-shadow: inset 1px 0px 24px 6px rgba(89,89,89,1);
+  box-shadow: inset 1px 0px 24px -14px rgba(89,89,89,1);
+  background-color: rgba(54, 65, 52, 0.5);
+  justify-content: center;
+  border-bottom: 5px solid rgba(54, 65, 52, 0.5);;
 }
 #card{
-  width: 20.3rem;
+  max-width: 21.3rem;
   height: 30rem;
   background: white;
   background-image: linear-gradient(#eee .1em, transparent .1em);
   background-size: 100% 1.3em;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   position: relative;
-  margin: 10px 20px 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 12px;
+  cursor: pointer;
 }

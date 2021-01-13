@@ -9,8 +9,8 @@ import {CookingComponent, FilterNames} from './cooking/cooking.component';
 import { BakingComponent } from './baking/baking.component';
 import { DessertComponent } from './dessert/dessert.component';
 import { ContactComponent } from './contact/contact.component';
-import {FormsModule} from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import {FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -26,8 +26,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    NgbModule,
     FormsModule,
-    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

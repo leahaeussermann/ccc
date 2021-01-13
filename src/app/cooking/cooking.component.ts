@@ -7,21 +7,20 @@ import Data from '../data/cook-recipes';
   styleUrls: ['./cooking.component.css']
 })
 export class CookingComponent implements OnInit {
-
-  names = ['daniel manuel', 'jhon', 'gorka', 'kepa'];
   data: any[] = [];
   filterName: string;
   constructor() {
-    console.log(Data);
     this.data = Data;
-
   }
 
   ngOnInit() {
-
   }
 
+  openRecipe() {
+    console.log('open recipe page');
+  }
 }
+
 @Pipe({name: 'filterByName'})
 export class FilterNames implements PipeTransform {
   transform(listOfNames: any[], nameToFilter: string): any[] {
