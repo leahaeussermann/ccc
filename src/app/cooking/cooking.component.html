@@ -7,7 +7,7 @@ padding-bottom: 16px">
 <div class="container-sm" style="display: flex; flex-flow: wrap;" id="container">
 
   <div *ngFor="let name of data | filterByName:filterName">
-    <div class="card" style="width: 18rem;">
+    <div class="card" id="card">
       <img src="..." class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">{{name.recipe.label}}</h5>
