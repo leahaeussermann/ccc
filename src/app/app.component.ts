@@ -8,4 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'recipe-book';
   public isCollapsed = true;
+
+  refresh() {
+    window.location.reload();
+  }
 }

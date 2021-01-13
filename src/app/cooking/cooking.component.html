@@ -4,19 +4,20 @@ padding-bottom: 16px">
     <input style="width: 100%" [(ngModel)]="filterName" placeholder="Suche nach Rezepten">
   </label>
 </div>
-<div class="container-sm" style="display: flex; flex-flow: wrap;" id="container">
+<div style="height: 87%">
+  <div class="container-sm" style="display: flex; flex-flow: wrap; height: 91%" id="container">
 
-  <div *ngFor="let name of data | filterByName:filterName">
-    <div class="card" id="card">
-      <img style="width: 200px; align-self: center; margin-top: 22px"
-           src="{{name.recipe.image}}" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">{{name.recipe.label}}</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-          content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+    <div *ngFor="let name of data | filterByName:filterName">
+      <div class="card" id="card">
+        <img style="width: 200px; align-self: center; margin-top: 22px"
+             src="{{name.recipe.image}}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{name.recipe.label}}</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
       </div>
     </div>
   </div>
 </div>
-

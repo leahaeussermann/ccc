@@ -1,11 +1,12 @@
 #container{
-  position: absolute;
+/*  position: absolute;
   top: 119px;
   bottom: 0;
   left: 0;
-  right: 0;
+  right: 0;*/
   overflow-y: scroll;
   overflow-x: hidden;
+  box-shadow: inset 1px 0px 24px 6px rgba(89,89,89,1);
 }
 #card{
   width: 20.3rem;
@@ -15,6 +16,5 @@
   background-size: 100% 1.3em;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   position: relative;
-  margin: 20px;
-  margin-top: 0;
+  margin: 10px 20px 20px;
 }
