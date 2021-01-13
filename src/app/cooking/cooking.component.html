@@ -1,9 +1,10 @@
-<div class="container-sm" style="display: flex; flex-flow: wrap; text-align: center">
+<div class="container-sm" style="display: flex; flex-flow: wrap; text-align: center; padding-top: 16px;
+padding-bottom: 16px">
   <label style="width: 100%">
     <input style="width: 100%" [(ngModel)]="filterName" placeholder="Suche nach Rezepten">
   </label>
 </div>
-<div class="container-sm" style="display: flex; flex-flow: wrap">
+<div class="container-sm" style="display: flex; flex-flow: wrap;" id="container">
 
   <div *ngFor="let name of data | filterByName:filterName">
     <div class="card" style="width: 18rem;">
