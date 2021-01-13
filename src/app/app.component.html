@@ -3,13 +3,14 @@
     <img  style="width: 75px; cursor: pointer" class="navbar-brand" href="#" [src]="'./assets/logo/test.png'"
      (click)="refresh()"/>
     <button class="navbar-toggler" type="button" (click)="isCollapsed =!isCollapsed"
-            data-bs-toggle="collapse" data-bs-target="#navbarNav" [attr.aria-expanded]
+            data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav" [ngbCollapse]="isCollapsed">
+    <div class="collapse navbar-collapse" id="navbarNav" [ngbCollapse]="isCollapsed"
+         (click)="isCollapsed = !isCollapsed">
       <ul class="navbar-nav" style="width: 100%">
-        <li class="nav-item" (click)="isCollapsed= isCollapsed">
+        <li class="nav-item">
           <a class="nav-link active" routerLink="/home" routerLinkActive="selected" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
