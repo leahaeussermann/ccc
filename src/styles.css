@@ -8,7 +8,7 @@ body{
   margin-bottom: 70px;
   color: #364134 !important;
 }
-.navbar.navbar-expand-lg.navbar-light.bg-light{
+.navbar.navbar-expand-lg.navbar-dark.bg-light{
   background-color: #364134 !important;
 }
 .nav-link{
@@ -25,4 +25,14 @@ input{
 
 card{
   color: #364134 !important;
+}
+
+.btn{
+  color: #364134 !important;
+  border-color: #364134 !important;
+}
+
+.btn-outline-dark:hover{
+  color: white !important;
+  background-color: #364134 !important;
 }
