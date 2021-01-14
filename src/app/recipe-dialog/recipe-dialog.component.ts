@@ -1,4 +1,4 @@
-import {Component, Input, OnInit} from '@angular/core';
+import {Component, Input} from '@angular/core';
 import {NgbActiveModal} from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
@@ -10,5 +10,4 @@ export class RecipeDialogComponent {
 
   @Input() lesson: any;
   constructor(public activeModal: NgbActiveModal) { }
-
 }
