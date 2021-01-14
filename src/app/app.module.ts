@@ -12,6 +12,7 @@ import { ContactComponent } from './contact/contact.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import {FormsModule} from '@angular/forms';
 import { RecipeDialogComponent } from './recipe-dialog/recipe-dialog.component';
+import {HashLocationStrategy, LocationStrategy} from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,7 @@ import { RecipeDialogComponent } from './recipe-dialog/recipe-dialog.component';
     FormsModule,
   ],
   entryComponents: [RecipeDialogComponent],
-  providers: [],
+  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
